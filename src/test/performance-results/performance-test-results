@@ -1,0 +1,91 @@
+After execution of tests for the same input data set we got such a results:
+
+Java7 test suit for calculation sum of elements:
+
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java7' takes -139200ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java7' takes -56200ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java7' takes -5500ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java7' takes -69000ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java7' takes -28800ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java7' takes -5900ms to run.
+
+Min run time is: -139200ms
+
+Java8 test suit for calculation sum of elements:
+
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -4801000ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -110400ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -79100ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -15512100ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -1281800ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -65800ms to run.
+
+Min run time is: -4801000ms
+
+Java7 test suit for calculation frequency of elements:
+
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -11890300ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -602900ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -60200ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -193600ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -21200ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -6132000ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -55300ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -50000ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -96800ms to run.
+Execution of 'Time of test run of method to calculate words frequency for aggregator based on Java7' takes -7600ms to run.
+
+Min run time is: -11890300ms
+
+Java8 test suit for calculation frequency of elements:
+
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -23506200ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -233800ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -199100ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -410000ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -86100ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -46380000ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -649200ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -280800ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -5952600ms to run.
+Execution of 'Time of test run of method to calculate sum for aggregator based on Java8' takes -17900ms to run.
+
+Min run time is: -23506200ms
+
+Java7 test suit for calculation duplicates of elements:
+
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -1803300ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -1384400ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -1824800ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -18900ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -43600ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -961700ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -121700ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -77300ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -6700ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -30300ms to run.
+
+Min run time is: -1803300ms
+
+Java8 test suit for calculation duplicates of elements:
+
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -19212000ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -1753500ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -384200ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -32000ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -124600ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -37056500ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -5978200ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -2857700ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -32500ms to run.
+Execution of 'Time of test run of method to calculate words duplicates for aggregator based on Java7' takes -7697900ms to run.
+
+Min run time is: -19212000ms
+
+
+CONCLUSION:
+As far as we can see using the same input and absolutely equivalent data input we receive better performance results
+for Java 8 compared to Java 7 run time for each test.
+So I could say that Java 8 brought significant improvements to the simplicity of writing code,
+filtering, sorting, and other common operations with Stream API and made performance improvements.
+What makes the lives of developers a bit easier and happy )
